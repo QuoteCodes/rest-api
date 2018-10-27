@@ -28,3 +28,15 @@ Route | HTTP | Description
 ------|------|-------------
 /api/users?name=`{name}` | GET | Get `{name}` match in users
 /api/users?name=`{na}` | GET | Get `{na}` like in users
+
+### Usage
+
+### With only npm:
+
+```javascript
+npm install
+npm start
+npm run dev
+```
+
+Access the website via `http://localhost:3000` or API via `http://localhost:3000/api`.
